@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "npx tsc",
-    "tslint": "npx tslint --project ."
+    "tsc": "npx tsc ; exit 0",
+    "tslint": "npx tslint --project . ; exit 0",
+    "compare": "npm run tsc; npm run tslint"
   },
   "author": "",
   "license": "Unlicense",
   "dependencies": {},
   "devDependencies": {
+    "shellcheck": "^1.0.0",
     "tslint": "^6.1.3",
     "typescript": "^4.3.5"
   }

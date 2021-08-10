@@ -3,10 +3,7 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build and Test
     steps:
     - uses: actions/checkout@v2
-      name: Check out repository
-    - run: |
-        npm install
-        npm run compare
+    - run: npm install
+    - run: npm run compare

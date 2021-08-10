@@ -1,0 +1,6 @@
+{
+  "include": ["./*.ts"],
+  "defaultSeverity": "error",
+  "extends": ["tslint:all"],
+  "rules": { "no-inferrable-types": false }
+}

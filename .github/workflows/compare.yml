@@ -1,9 +1,5 @@
 name: compare tsc and tslint findings
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+on: commit:
 jobs:
   build:
     runs-on: ubuntu-latest

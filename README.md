@@ -42,4 +42,4 @@ for this comparison.
 
 ### Rule Settings
 
-See (./tsconfig.json) and (./tslint.json)
+See ```tsconfig.json``` and ```tslint.json```

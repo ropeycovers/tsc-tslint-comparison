@@ -1,5 +1,5 @@
 name: compare tsc and tslint findings
-on: commit:
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest

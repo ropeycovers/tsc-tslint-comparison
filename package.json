@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "npx tsc"
+    "tsc": "npx tsc",
     "tslint": "npx tslint --project ."
   },
   "author": "",
